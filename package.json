@@ -1,8 +1,8 @@
 {
-  "name": "juniorhrc",
+  "name": "yourdomain",
   "version": "1.0.0",
   "private": true,
-  "description": "juniorhrc",
+  "description": "yourdomain",
   "author": "Jagadeesh J",
   "keywords": [
     "gatsby"
@@ -15,12 +15,21 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@mdx-js/react": "^2.3.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "@theme-ui/mdx": "^0.17.1",
     "autoprefixer": "^10.4.20",
     "gatsby": "^5.14.1",
+    "gatsby-plugin-image": "^3.14.0",
     "gatsby-plugin-postcss": "^6.14.0",
+    "gatsby-plugin-sharp": "^5.14.0",
+    "gatsby-plugin-theme-ui": "^0.17.1",
+    "gatsby-source-filesystem": "^5.14.0",
     "postcss": "^8.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "^4.0.0"
+    "tailwindcss": "^4.0.0",
+    "theme-ui": "^0.17.1"
   }
 }
